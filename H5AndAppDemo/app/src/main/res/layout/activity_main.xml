@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dlsmartercity.h5andappdemo.MainActivity">
+
+    <Button
+        android:id="@+id/mBtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="app调js方法"
+        android:layout_weight="1" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Hello World!" />
+
+</android.support.v7.widget.LinearLayoutCompat>
